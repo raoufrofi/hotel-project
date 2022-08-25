@@ -1,0 +1,46 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+
+p{
+    font-size: 14px;
+}
+
+/*--- BUTTONS ---*/
+.btn{
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.pink-btn{
+    border: 1px solid var(--light-pink);
+    padding: 0.6rem 1.2rem;
+    border-radius: 3px;
+    background-color: var(--light-pink);
+    color: var(--light);
+    transition: 0.3s;
+}
+.pink-btn:hover{
+    color: var(--light-pink);
+    background-color: transparent;
+}
+.white-btn{
+    border: 1px solid var(--light);
+    padding: 0.6rem 1.2rem;
+    border-radius: 3px;
+    background-color: var(--light);
+    color: var(--dark);
+    transition: 0.3s;
+}
+.white-btn:hover{
+    color: var(--light);
+    background-color: transparent;
+}

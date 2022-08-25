@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilityClasses.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container topBar">
+            <div class="contactInfo">
+                <p>Phone number <a href="#">+92-3048760-833</a> or email us <a href="#">gotitin1033@gmail.com</a></p>
+            </div>
+            <div class="socialIcons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-swift"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="container navbar flex">
+            <div class="navLogo">
+                <a href="#">Vacation<span>Rental</span></a>
+            </div>
+            <div class="navLinks">
+                <a href="#" class="active">Home</a>
+                <a href="#">about</a>
+                <a href="#">Services</a>
+                <a href="#">Appartment Room</a>
+                <a href="#">blog</a>
+                <a href="#">contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ShowCase -->
+    <div class="showCase">
+        <div class="container showCaseArea">
+            <div class="showCaseContent">
+                <div class="welcome">
+                    <p>Welcone to vacation rental</p>
+                </div>
+                <div class="headTitle">
+                    <h1>Rent an appartment for Your vacation</h1>
+                </div>
+                <div class="showCaseButton">
+                    <a href="#" class="btn pink-btn">LEARN MORE</a>
+                    <a href="#" class="btn white-btn">CONTACT US</a>
+                </div>
+            </div>
+
+            <div class="showCaseForm">
+                <form id="bookingForm" action="#">
+                    <div class="formTitle">
+                        <h2>Book your appartment</h2>
+                    </div>
+                    <div class="formName">
+                        <input type="text" placeholder="Full Name">
+                    </div>
+                    <div class="check-in-out">
+                        <input id="check-in" type="text" placeholder="Check-In">
+                        <input id="check-out" type="text" placeholder="Check-Out">
+                    </div>
+                    <div class="family-Members">
+                        <select name="adults" id="adults">
+                            <option value="#">Adults</option>
+                            <option value="#">1</option>
+                            <option value="#">2</option>
+                            <option value="#">3</option>
+                            <option value="#">5</option>
+                        </select>
+                        <select name="adults" id="adults">
+                            <option value="#">Children</option>
+                            <option value="#">1</option>
+                            <option value="#">2</option>
+                            <option value="#">3</option>
+                            <option value="#">5</option>
+                        </select>
+                    </div>
+                    <div class="info">
+                        <input type="text" placeholder="Phone Numbers">
+                        <input id="formTime" type="text" placeholder="Time">
+                    </div>
+                    <div class="showCaseFormButton">
+                        <a href="#" id="resetForm" class="btn pink-btn form-btn">BOOK APPARTMENT NOW</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Facilities -->
+    <div class="facilities">
+        <div class="container facilities-area">
+            <div class="facility facility-1">
+                <div class="facility-image">
+                    <img src="images/map-direction.jpg" alt="">
+                </div>
+                <div class="facility-content facility-1-content">
+                    <h2>Map Direction</h2>
+                    <p>Tempore harum dolore aut inventore dolorem provident officia alias blanditiis aspernatur
+                        mollitia.</p>
+                </div>
+                <a href="#" class="facility-btn btn pink-btn">Read More</a>
+            </div>
+
+            <div class="facility facility-2">
+                <div class="facility-image">
+                    <img src="images/accomodation-room.jpg" alt="">
+                </div>
+                <div class="facility-content facility-1-content">
+                    <h2>Accomodation Room</h2>
+                    <p>Tempore harum dolore aut inventore dolorem provident officia alias blanditiis aspernatur
+                        mollitia.</p>
+                </div>
+                <a href="#" class="facility-btn btn pink-btn">Read More</a>
+            </div>
+
+            <div class="facility facility-3">
+                <div class="facility-image">
+                    <img src="images/best-experience.jpg" alt="">
+                </div>
+                <div class="facility-content facility-1-content">
+                    <h2>Best Experience</h2>
+                    <p>Tempore harum dolore aut inventore dolorem provident officia alias blanditiis aspernatur
+                        mollitia.</p>
+                </div>
+                <a href="#" class="facility-btn btn pink-btn">Read More</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Appartment Room Section -->
+    <section class="appartment">
+
+        <div class="appartment-title">
+            <h1>Appartment Rooms</h1>
+        </div>
+
+        <div class="appartment-rooms">
+            <div class="appartment-line appartment-line-1">
+                <div class="room room-1">
+
+                    <div class="room-image">
+                        <img src="images/sex room.jpg" alt="">
+                    </div>
+                    <div class="room-content">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="room-details">
+                            <h2>Sex Room</h2>
+                            <p>Persons: 3</p>
+                            <p>Size: 45cm<sup>2</sup></p>
+                            <p>View: Sea View</p>
+                            <p>Bed: 1</p>
+                        </div>
+
+                        <div class="room-btn">
+                            <a href="#" class="room-detail-button">View Room Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="room room-2">
+
+                    <div class="room-image">
+                        <img src="images/couple room.jpg" alt="">
+                    </div>
+                    <div class="room-content">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="room-details">
+                            <h2>Couple Room</h2>
+                            <p>Persons: 3</p>
+                            <p>Size: 45cm<sup>2</sup></p>
+                            <p>View: Sea View</p>
+                            <p>Bed: 1</p>
+                        </div>
+
+                        <div class="room-btn">
+                            <a href="#" class="room-detail-button">View Room Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="room room-3">
+
+                    <div class="room-image">
+                        <img src="images/beach room.jpg" alt="">
+                    </div>
+                    <div class="room-content">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="room-details">
+                            <h2>Beach Room</h2>
+                            <p>Persons: 3</p>
+                            <p>Size: 45cm<sup>2</sup></p>
+                            <p>View: Sea View</p>
+                            <p>Bed: 1</p>
+                        </div>
+
+                        <div class="room-btn">
+                            <a href="#" class="room-detail-button">View Room Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="appartment-line appartment-line-2">
+                <div class="room room-4">
+
+                    <div class="room-content">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="room-details">
+                            <h2>Hall Room</h2>
+                            <p>Persons: 3</p>
+                            <p>Size: 45cm<sup>2</sup></p>
+                            <p>View: Sea View</p>
+                            <p>Bed: 1</p>
+                        </div>
+
+                        <div class="room-btn">
+                            <a href="#" class="room-detail-button">View Room Details</a>
+                        </div>
+                    </div>
+
+                    <div class="room-image">
+                        <img src="images/hall room.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="room room-2">
+
+                    <div class="room-content">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="room-details">
+                            <h2>Family Room</h2>
+                            <p>Persons: 3</p>
+                            <p>Size: 45cm<sup>2</sup></p>
+                            <p>View: Sea View</p>
+                            <p>Bed: 1</p>
+                        </div>
+
+                        <div class="room-btn">
+                            <a href="#" class="room-detail-button">View Room Details</a>
+                        </div>
+                    </div>
+
+                    <div class="room-image">
+                        <img src="images/family room.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="room room-3">
+
+
+                    <div class="room-content">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="room-details">
+                            <h2>Pool Room</h2>
+                            <p>Persons: 3</p>
+                            <p>Size: 45cm<sup>2</sup></p>
+                            <p>View: Sea View</p>
+                            <p>Bed: 1</p>
+                        </div>
+
+                        <div class="room-btn">
+                            <a href="#" class="room-detail-button">View Room Details</a>
+                        </div>
+                    </div>
+                    <div class="room-image">
+                        <img src="images/pool room.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Happy Client Section -->
+    <section class="client-reviews-section">
+        <div class="container clients">
+            <div class="clients-title">
+                <h1>Happy Clients & FeedBacks</h1>
+            </div>
+            <div class="client-review">
+                <div class="client">
+                    <div class="profile-pic">
+                        <img src="images/Girl in Hoodie.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dolorum?</p>
+                        <h2>Joseph Barar</h2>
+                        <p>Businessman</p>
+                    </div>
+                </div>
+                <div class="client">
+                    <div class="profile-pic">
+                        <img src="images/Girl in Hoodie.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dolorum?</p>
+                        <h2>Joseph Barar</h2>
+                        <p>Businessman</p>
+                    </div>
+                </div>
+                <div class="client">
+                    <div class="profile-pic">
+                        <img src="images/Girl in Hoodie.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dolorum?</p>
+                        <h2>Joseph Barar</h2>
+                        <p>Businessman</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Offer Section -->
+    <section class="offer-section">
+        <div class="container offer">
+            <div class="offer-image-section">
+                <div class="offer-image-image">
+                    <img src="images/Hotel Top.jpg" alt="">
+                </div>
+                <div class="offer-image-content">
+                    <h2>The most recomeded vacation rental</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum optio voluptas autem dolore magni qui quisquam facere fugit. Quibusdam quod officia fugit debitis inventore culpa saepe tenetur laborum nulla dolorum?</p>
+                </div>
+            </div>
+
+            <div class="offer-content-section">
+                <div class="offer-content-section-title">
+                    <h1>What We offer</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia cum possimus amet accusantium maiores fuga ullam quos, at ea? Cum.</p>
+                </div>
+                <div class="offer-content-section-offers">
+                    <div class="client offer offer-1">
+                        <div class="profile-pic">
+                            <img src="images/Girl in Hoodie.jpg" alt="">
+                        </div>
+                        <div class="">
+                            <h2>Kitchen</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dolorum?</p>
+                            <p>Businessman</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
